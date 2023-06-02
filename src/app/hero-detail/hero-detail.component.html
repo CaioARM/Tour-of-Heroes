@@ -2,9 +2,32 @@
 
     <h2>{{hero.name | uppercase}} Details</h2>
     <div><span>id: </span>{{hero.id}}</div>
+    <div><span>poder: </span>{{hero.power}}</div>
     <div>
-      <label for="hero-name">Hero name: </label>
-      <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
+      <label for="hero-rank">Ranking: </label><br>
+      <input id="hero-rank" [(ngModel)]="hero.rank" placeholder="rank"><br>
+
+      <label for="hero-name">Hero name: </label><br>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="name"><br>
+
+      <label for="hero-gen">Gênero: </label><br>
+      <input id="hero-gen" [(ngModel)]="hero.gen" placeholder="gen"><br>
+
+      <label for="hero-power">Habilidade: </label><br>
+      <input id="hero-power" [(ngModel)]="hero.power" placeholder="power"><br>
+
+      <label for="hero-tname">Identidade secreta: </label><br>
+      <input id="hero-tname" [(ngModel)]="hero.tname" placeholder="tname"><br>
+
+      <label for="hero-des">Descrição: </label><br>
+      <input id="hero-des" [(ngModel)]="hero.des" placeholder="des"><br>
+
+      <label for="hero-strenght">Pontos fortes: </label><br>
+      <input id="hero-strenght" [(ngModel)]="hero.strenght" placeholder="strenght"><br>
+
+      <label for="hero-weakness">Fraquezas: </label><br>
+      <input id="hero-weakness" [(ngModel)]="hero.weakness" placeholder="weakness">
+
     </div>
     <button type="button" (click)="save()">save</button>
     <button type="button" (click)="goBack()">go back</button>
