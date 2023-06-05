@@ -1,11 +1,14 @@
 /* HeroDetailComponent's private CSS styles */
 label {
-    color: #435960;
+  color: #badddb;
     font-weight: bold;
   }
   input {
     font-size: 1em;
-    padding: .5rem;
+    padding: .6rem;
+    background-color: rgb(9, 9, 36);
+    color: #ccc;
+  width: 500px;
   }
   button {
     margin-top: 20px;
@@ -23,3 +26,15 @@ label {
     color: #ccc;
     cursor: auto;
   }
+  h2{
+    color: #badddb;
+text-align: center;
+
+
+  }
+  Span{
+
+    color: #badddb;
+
+  }
+

@@ -6,14 +6,15 @@ label {
     font-size: 1.2rem;
     margin-top: 1rem;
     margin-bottom: .5rem;
+    color: #badddb;
   
   }
   input {
-    padding: .5rem;
-    width: 100%;
-    max-width: 600px;
-    box-sizing: border-box;
-    display: block;
+    width: 300px;
+  height: 45px;
+  font-size: large;
+  background-color: rgb(9, 9, 36);
+  color: white;
   }
   
   input:focus {
@@ -22,6 +23,7 @@ label {
   
   li {
     list-style-type: none;
+    color: #badddb;
   }
   .search-result li a {
     border-bottom: 1px solid gray;
@@ -33,15 +35,25 @@ label {
     padding: .5rem;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
+    color: #badddb;
   }
   
   .search-result li a:hover {
     background-color: #435A60;
     color: white;
+    color: #badddb;
   }
   
   ul.search-result {
     margin-top: 0;
     padding-left: 0;
+  }
+  #FINDHERO{
+    text-align: center;
+  
+  
+  }
+  a{
+color: #badddb;
+
   }

@@ -52,3 +52,52 @@
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
+
+#FINDHERO{
+  text-align: center;
+
+
+}
+
+h2{
+
+  color: #badddb;
+
+}
+
+h3{
+text-align: center;
+color: #badddb;
+
+
+}
+input{
+  width: 300px;
+  height: 45px;
+  font-size: large;
+  background-color: rgb(9, 9, 36);
+  color: white;
+
+}
+.add-button {
+  background-color: #eb1313;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+Button{
+  background-color: #eb1313;
+  color: rgb(255, 255, 255);
+}
+
+#DarkBG{
+
+  background-image: "./assets/01.webp"
+}
