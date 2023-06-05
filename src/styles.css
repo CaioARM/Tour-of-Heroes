@@ -56,7 +56,7 @@ a {
   margin: auto;
   max-width: 1000px;
 
-  /* flexbox */
+ 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
