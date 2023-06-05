@@ -1,0 +1,103 @@
+/* HeroesComponent's private CSS styles */
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  position: relative;
+  cursor: pointer;
+}
+
+.heroes li:hover {
+  left: .1em;
+}
+
+.heroes a {
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.heroes a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.heroes a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: red;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+#FINDHERO{
+  text-align: center;
+
+
+}
+
+h2{
+
+  color: #badddb;
+
+}
+
+h3{
+text-align: center;
+color: #badddb;
+
+
+}
+input{
+  width: 300px;
+  height: 45px;
+  font-size: large;
+  background-color: rgb(9, 9, 36);
+  color: white;
+
+}
+.add-button {
+  background-color: #eb1313;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+Button{
+  background-color: #eb1313;
+  color: rgb(255, 255, 255);
+}
+
+#DarkBG{
+
+  background-image: "./assets/01.webp"
+}

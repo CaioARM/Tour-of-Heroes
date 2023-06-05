@@ -1,0 +1,87 @@
+<link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+<div *ngIf="hero">
+
+    <h2>Informações: {{hero.name | uppercase}} id:  {{hero.id}} </h2>
+    
+  
+    <div><br>
+      <div class="container">
+        <div class="row">
+          <div class="cols-12"></div>
+          <div class="col-6 form-group mb-2">
+      <label for="hero-rank">Ranking:</label><br>
+      </div>
+      <div class="col-6 form-group mb-2">
+        <label for="hero-name">Nome do Vingador:</label><br>
+        </div>
+        <div class="row"></div>
+        <div class="cols-12"></div>
+        <div class="col-6 form-group mb-2">
+        <input id="hero-rank" [(ngModel)]="hero.rank" placeholder="rank"><br>
+      </div>
+      <div class="col-6 form-group mb-2">
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="rank"><br>
+      </div>
+      <div class="cols-12"></div>
+      <div class="col-6 form-group mb-2">
+        <label for="hero-gen">Gênero: </label><br>
+    </div>
+    <div class="col-6 form-group mb-2">
+      <label for="hero-tname">Identidade Secreta: </label><br>
+    </div>
+
+    
+    <div class="cols-12"></div>
+        <div class="col-6 form-group mb-2">
+        <input id="hero-gen" [(ngModel)]="hero.gen" placeholder="gen"><br>
+      </div>
+      <div class="col-6 form-group mb-2">
+      <input id="hero-tname" [(ngModel)]="hero.tname" placeholder="tname"><br>
+    </div>
+
+
+    <div class="cols-12"></div>
+    <div class="col-6 form-group mb-2">
+      <label for="hero-power">Poderes: </label><br>
+  </div>
+  <div class="col-6 form-group mb-2">
+    <label for="hero-des">Descrição: </label><br>
+  </div>
+
+
+  <div class="cols-12"></div>
+  <div class="col-6 form-group mb-2">
+    <input id="hero-power" [(ngModel)]="hero.power" placeholder="power"><br>
+</div>
+<div class="col-6 form-group mb-2">
+  <input id="hero-des" [(ngModel)]="hero.des" placeholder="des"><br>
+</div>
+
+
+<div class="cols-12"></div>
+  <div class="col-6 form-group mb-2">
+    <label for="hero-strenght">Pontos fortes: </label><br>
+</div>
+<div class="col-6 form-group mb-2">
+  <label for="hero-weakness">Fraquezas: </label><br>
+</div>
+
+
+<div class="cols-12"></div>
+  <div class="col-6 form-group mb-2">
+    <input id="hero-strenght" [(ngModel)]="hero.strenght" placeholder="strenght"><br>
+</div>
+<div class="col-6 form-group mb-2">
+  <input id="hero-weakness" [(ngModel)]="hero.weakness" placeholder="weakness">
+</div>
+
+
+<div class="cols-12"></div>
+  <div class="col-6 form-group mb-2">
+
+
+    </div>
+    </div>
+    <button type="button" (click)="save()">salvar</button>
+    <button type="button" (click)="goBack()">Voltar</button>
+  </div>
