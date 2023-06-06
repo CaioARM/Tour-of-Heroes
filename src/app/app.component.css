@@ -59,9 +59,10 @@ h1 {
   nav a {
     
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     padding: 1rem;
-    padding-left: 250px;
+    text-align: center;
+    margin-right: 25px;
     text-decoration: none;
     width: 300px;
     margin-left: 25px;
